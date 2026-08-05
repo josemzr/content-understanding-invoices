@@ -1,0 +1,25 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "SupplierName": "Proveedor de ejemplo S.L.",
+    "SupplierTaxId": "B12345678",
+    "InvoiceNumber": "F-2026-0001",
+    "InvoiceDate": "2026-08-01",
+    "PurchaseOrderNumber": "PO-4500012345",
+    "RecipientName": "Centro de ejemplo",
+    "Currency": "EUR",
+    "Subtotal": 100.0,
+    "TaxAmount": 21.0,
+    "TotalAmount": 121.0,
+    "LineItems": [
+      {
+        "Description": "Producto de ejemplo",
+        "SupplierItemCode": "SKU-001",
+        "Quantity": 10.0,
+        "UnitOfMeasure": "unidad",
+        "UnitPrice": 10.0,
+        "Amount": 100.0
+      }
+    ]
+  }
+}

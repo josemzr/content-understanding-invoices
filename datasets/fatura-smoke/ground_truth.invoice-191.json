@@ -1,0 +1,26 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "SupplierName": "Mclean-Cochran",
+    "InvoiceNumber": "INV/30-14/832",
+    "InvoiceDate": "1994-01-03",
+    "RecipientName": "Michael Sparks",
+    "Currency": "EUR",
+    "TotalAmount": 441.14,
+    "PaymentDueDate": "2007-02-06",
+    "LineItems": [
+      {
+        "Description": "Prove amount sell.",
+        "Quantity": 1.0,
+        "UnitPrice": 64.54,
+        "Amount": 64.54
+      },
+      {
+        "Description": "Assume against.",
+        "Quantity": 6.0,
+        "UnitPrice": 62.36,
+        "Amount": 374.16
+      }
+    ]
+  }
+}

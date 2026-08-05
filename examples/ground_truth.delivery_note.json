@@ -1,0 +1,23 @@
+{
+  "document_type": "delivery_note",
+  "fields": {
+    "SupplierName": "Proveedor de ejemplo S.L.",
+    "SupplierTaxId": "B12345678",
+    "DeliveryNoteNumber": "A-2026-0001",
+    "DeliveryDate": "2026-08-01",
+    "PurchaseOrderNumber": "PO-4500012345",
+    "RecipientName": "Centro de ejemplo",
+    "ReceiverName": "Persona receptora",
+    "TotalPackages": 2,
+    "LineItems": [
+      {
+        "Description": "Producto entregado",
+        "SupplierItemCode": "SKU-001",
+        "QuantityDelivered": 10.0,
+        "UnitOfMeasure": "unidad",
+        "LotNumber": "LOTE-001",
+        "ExpirationDate": "2027-08-01"
+      }
+    ]
+  }
+}
